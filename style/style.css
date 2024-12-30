@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#Maquette{
+    display: block;
+    justify-content: center;
+    box-shadow: 0 0 5px;
+    border-radius: 0 10px;
+    width: 100%;
+    height: auto;
+}
+body h1{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.012);
+}
+.CHEF{
+    height: 50px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    font-size: 15px;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+ul li a:hover{
+    background:linear-gradient(white,rgba(210, 105, 30, 0.452));
+    color:black;
+}
+.li{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    font-size: 15px;
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    box-shadow: 0 0 3px black;
+    border-radius:50px;
+}
+.a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px;
+    border-radius: 0 10px;
+}
+#debut{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.103);
+    height: 300px;
+}
+.imgdebut{
+    height: 280px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 230px;
+    border-radius:0 25px;
+}
+.textdebut{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.textdebut h2{
+    color: firebrick;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 100PX;
+    font-family: "Comic Sans MS", cursive;
+    font-style:italic ;
+    text-shadow: 0 4px black;
+}
+.textdebut h3{
+    color: firebrick;
+    margin-left: 300px;
+    font-weight: bold;
+    font-size: 40px;
+    font-style:italic ;
+    font-family:  serif;
+
+
+}
+.textdebut p{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.buttondebut{
+    background-color: firebrick;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    box-shadow: 0 0 3px;
+    border-radius:  20px;
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.buttondebut:hover{
+   color: firebrick;
+   background-color: white;
+   transition: calc(2s);
+   transform: scale(1.1);
+   
+}
+
+#section2{
+    display: flex;
+    cursor: pointer;
+    height: 300px;
+    width: 100%;
+    margin-top: 40px;
+}
+.repas1{
+    height: 370px;
+    width: 230px;
+    padding: 10px;
+    border-radius:  20px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+.repas2{
+    height: 370px;
+    width: 230px;
+    padding: 10px;
+    border-radius:  20px;
+    margin-top: 50px;
+}
+.repas3{
+    height: 370px;
+    width: 230px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+
+}
+.repas1:hover{
+
+    transform: scale(1.1);
+    
+}
+.repas2:hover{
+    transform: scale(1.1);
+
+
+}
+.repas3:hover{
+    transform: scale(1.1);
+}
+.text2{
+    margin-left: 30px;
+}
+#section3{
+    height: 300px;
+    width: 100%;
+}
+
+.form_btn {
+    display: flex;
+    width: fit-content;
+    margin-top: 20px;
+    background: linear-gradient(#5753cb,#53B758);
+}
+.bxl-facebook{
+    background-color: rgb(48, 48, 124);
+    color: #fff;
+    margin: 10px;
+    font-size: 35px;
+    
+}
+.bxl-whatsapp{
+    background-color: green;
+    color: #fff;
+    margin: 10px;
+    font-size: 35px;
+    
+}
+.bxl-linkedin{
+    background-color:  rgb(48, 48, 124);
+    color: #fff;
+    margin: 10px;
+    font-size: 35px;
+}
+.bxl-instagram{
+    background:linear-gradient( rgb(255, 0, 157) , rgb(235, 4, 4));
+    color: #fff;
+    margin: 10px;
+    font-size: 35px;
+   
+}
+.bxl-snapchat{
+    background-color: yellow;
+    color: #fff;
+    margin: 10px;
+    font-size: 35px;
+}
+.form_btn a{text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    font-size: 20px;
+}
+.right{
+    display: flex;
+margin-left: 400px;
+}
